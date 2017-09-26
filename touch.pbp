@@ -1,33 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.30 (Windows - x64)">
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.50 (Windows - x64)">
   <section name="config">
     <options closefiles="1" openmode="0" name="cli-touch"/>
   </section>
   <section name="data">
     <explorer view="" pattern="0"/>
     <log show="1"/>
-    <lastopen date="2017-07-22 17:03" user="Herwin" host="DESKTOP-RHJNB76"/>
+    <lastopen date="2017-09-26 00:16" user="Herwin" host="DESKTOP-UAKS81M"/>
   </section>
   <section name="files">
     <file name="touch.pb">
-      <config load="1" scan="1" panel="1" warn="1" lastopen="0" panelstate="+"/>
-      <fingerprint md5="4036916276937b174a9a88c8a75dbe46"/>
+      <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="b40c7368b13d751e51759b679d19158c"/>
     </file>
   </section>
   <section name="targets">
-    <target name="Default Target" enabled="1" default="1">
+    <target name="Windows x64" enabled="1" default="1">
       <inputfile value="touch.pb"/>
-      <outputfile value="touch.exe"/>
-      <compiler version="PureBasic 5.30 (Windows - x64)"/>
-      <commandline value="-h text.txt"/>
-      <executable value="touch.exe"/>
+      <outputfile value="../bin/x64/touch.exe"/>
+      <compiler version="PureBasic 5.50 (Windows - x64)"/>
+      <commandline value="text.txt"/>
+      <executable value="..\bin\x64\touch.exe"/>
       <options unicode="1" xpskin="1" debug="1"/>
       <temporaryexe value="source"/>
       <format exe="console" cpu="0"/>
-      <compilecount enable="1" value="59"/>
-      <buildcount enable="1" value="7"/>
+      <compilecount enable="1" value="89"/>
+      <buildcount enable="1" value="18"/>
       <execonstant enable="1"/>
+      <versioninfo enable="1">
+        <field0 value="1.0.1.0"/>
+        <field1 value="1.0.1.0"/>
+        <field3 value="cli-touch"/>
+        <field8 value="touch.exe"/>
+        <field14 value="https://github.com/aziascreations/cli-touch-pb"/>
+      </versioninfo>
     </target>
   </section>
 </project>

@@ -1,1 +1,4 @@
-*.exe
+touch.txt
+text.txt
+test.txt
+.gitignore
